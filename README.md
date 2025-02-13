@@ -1,6 +1,13 @@
-# FLAI Backend
+# Fine Tune Manager Backend
 
-FLAI Backend is a NestJS-based API server designed to handle AI-powered fine-tuning processes, Firebase interactions, and other backend functionalities.
+This is the backend of Fine Tune Manager, a tool for managing AI training data and generating training files for fine-tuning models.
+It supports:
+1. Managing and fine-tuning multiple AI models using the OpenAI API;
+2. Chatting with user's models and validating JSON responses to match the user-defined format;
+3. Converting speech into text prompts using the OpenAI Whisper API;
+4. Editing and organizing training data into structured files;
+5. Importing training data from JSON files;
+6. Uploading training files to the OpenAI API for training new models or reusing them across different models.
 
 ## Installation
 
